@@ -18,7 +18,6 @@ angular.module('app', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngRes
         'HONG_KONG': 'Hong Kong 香港',
         'SITE_TITLE': 'Thai in HK 泰文班 • 香港',
         'SITE_SUBTITLE': '一起輕鬆學泰文',
-        'ABOUT': '簡介',
         'SITE_DESCRIPTION_1': '拜訪曼谷四面佛、到布吉滑浪、在蘇梅島的長灘上撐一把太陽傘，來一個椰青，遠離城市煩囂，是不少人下個假期的計劃吧？',
         'SITE_DESCRIPTION_2': '還是，你打算出走南泰小村，一探原始泰國風貌？',
         'SITE_DESCRIPTION_3': '無論如何，一口流利的泰文都是你旅遊旁身必然選擇！',
@@ -81,7 +80,6 @@ angular.module('app', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngRes
         'HONG_KONG': 'Hong Kong 香港',
         'SITE_TITLE': 'Thai in HK 泰文班 • 香港',
         'SITE_SUBTITLE': '一起轻松学泰文',
-        'ABOUT': '简介',
         'SITE_DESCRIPTION_1': '拜访曼谷四面佛、到布吉滑浪、在苏梅岛的长滩上撑一把太阳伞，来一个椰青，远离城市烦嚣，是不少人下个假期的计划吧？ ',
         'SITE_DESCRIPTION_2': '还是，你打算出走南泰小村，一探原始泰国风貌？ ',
         'SITE_DESCRIPTION_3': '无论如何，一口流利的泰文都是你旅游旁身必然选择！ ',
@@ -138,6 +136,7 @@ angular.module('app', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngRes
         'SORRY_FULL': '对不起，我们现在的上课时间已满。若您有任何查询请发邮件联系我们，谢谢！'
       });
       $translateProvider.preferredLanguage('zh_TW');
+      $translateProvider.useCookieStorage();
 
       if (['127.0.0.1', '33.33.33.10'].indexOf(location.hostname) === -1) {
         $logProvider.debugEnabled(false);
