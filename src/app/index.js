@@ -12,6 +12,8 @@ angular.module('app', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngRes
       });
 
       $translateProvider.translations('zh_TW', {
+        'TRADITIONAL_CHINESE': '繁',
+        'SIMPLIFIED_CHINESE': '简',
         'THAI': '泰',
         'HONG_KONG': 'Hong Kong 香港',
         'SITE_TITLE': 'Thai in HK 泰文班 • 香港',
@@ -73,6 +75,8 @@ angular.module('app', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngRes
         'SORRY_FULL': '對不起，我們現在的上課時間已滿。若您有任何查詢請發郵件聯繫我們，謝謝！'
       })
       .translations('zh_CN', {
+        'TRADITIONAL_CHINESE': '繁',
+        'SIMPLIFIED_CHINESE': '简',
         'THAI': '泰',
         'HONG_KONG': 'Hong Kong 香港',
         'SITE_TITLE': 'Thai in HK 泰文班 • 香港',

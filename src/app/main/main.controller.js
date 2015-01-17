@@ -1,7 +1,11 @@
 'use strict';
 
 angular.module('app')
-  .controller('MainController', function ($scope, $location, $http, $anchorScroll, $log) {
+  .controller('MainController', function ($scope, $translate, $location, $http, $anchorScroll, $log) {
+
+  $scope.changeLanguage = function (language) {
+    $translate.use(language);
+  };
 
   $scope.gotoAnchor = function (anchor) {
     if ($location.hash() !== anchor) {
