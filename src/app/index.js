@@ -15,7 +15,7 @@ angular.module('app', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngRes
         'TRADITIONAL_CHINESE': '繁',
         'SIMPLIFIED_CHINESE': '简',
         'THAI': '泰',
-        'HONG_KONG': 'Hong Kong 香港',
+        'HONG_KONG': 'Hong Kong • 香港',
         'SITE_TITLE': 'Thai in HK 泰文班 • 香港',
         'SITE_SUBTITLE': '一起輕鬆學泰文',
         'SITE_DESCRIPTION_1': '拜訪曼谷四面佛、到布吉滑浪、在蘇梅島的長灘上撐一把太陽傘，來一個椰青，遠離城市煩囂，是不少人下個假期的計劃吧？',
