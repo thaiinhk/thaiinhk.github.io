@@ -83,7 +83,7 @@ gulp.task('fonts', function () {
 });
 
 gulp.task('misc', function () {
-  return gulp.src(['src/**/*.ico', 'src/**/apple-touch-icon*.png'])
+  return gulp.src(['src/**/*.ico', 'src/**/apple-touch-icon*.png', 'src/**/CNAME'])
     .pipe(gulp.dest('dist'))
     .pipe($.size());
 });
